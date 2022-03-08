@@ -20,13 +20,13 @@ Mouse.KeyDown:connect(function(k)
 	if k == "b" then
 		if _G.infinjump == true then
 			_G.infinjump = false
-			game.StarterGui:SetCore("SendNotification", {Title="Inf Jump OFF"; Text="ZXE"; Duration=1;})
+			game.StarterGui:SetCore("SendNotification", {Title="Inf Jump OFF"; Text="ZXE Expolit"; Duration=1;})
 
 		else
 			_G.infinjump = true
-			game.StarterGui:SetCore("SendNotification", {Title="Inf Jump ON"; Text="ZXE"; Duration=1;})
+			game.StarterGui:SetCore("SendNotification", {Title="Inf Jump ON"; Text="ZXE Expolit"; Duration=1;})
 
 		end
 	end
 end)
-game.StarterGui:SetCore("SendNotification", {Title="ZXE"; Text="The Infinity Switch is ready!\nPress \"B\" to toggle"; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="ZXE Expolit"; Text="The Infinity Switch is ready!\nPress \"B\" to toggle"; Duration=5;})
