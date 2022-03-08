@@ -8,4 +8,4 @@ tool.Activated:connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
 end)
 tool.Parent = game.Players.LocalPlayer.Backpack
-game.StarterGui:SetCore("SendNotification", {Title="ZeroNux#1653"; Text="You Got A Tp Tool ."; Duration=5;})
+game.StarterGui:SetCore("SendNotification", {Title="ZXE Expolit"; Text="You Got A Tp Tool ."; Duration=5;})
